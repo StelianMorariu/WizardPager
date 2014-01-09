@@ -1,0 +1,11 @@
+apply plugin: 'android'
+apply from: '../android_commons.gradle'
+
+dependencies {
+    compile 'com.android.support:support-v4:19.0.1@jar'
+	compile project(':wizardpager')
+}
+
+
+
+
